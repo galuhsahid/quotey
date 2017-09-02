@@ -1,0 +1,32 @@
+{
+  "name": "quotey",
+  "version": "1.0.0",
+  "description": "A simple command line tool that displays a random quote from your custom collection or WikiQuote on shell startup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Galuh Sahid <galuh.tunggadewi@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "quotey": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galuhsahid/quotey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/galuhsahid/quotey/issues"
+  },
+  "homepage": "https://github.com/galuhsahid/quotey#readme",
+  "keywords": [
+    "cli",
+    "quotes",
+    "shell",
+    "wikiquote"
+  ],
+  "dependencies": {
+    "commander": "^2.11.0",
+    "wikiquote": "^0.1.5"
+  }
+}
