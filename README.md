@@ -2,6 +2,8 @@
 
 quotey is a simple command line tool that displays a random quote from your custom collection or WikiQuote on shell startup. 
 
+![quotey]('https://raw.githubusercontent.com/galuhsahid/quotey/master/screencap.gif')
+
 ## Install
 
 ```
