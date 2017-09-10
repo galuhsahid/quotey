@@ -2,19 +2,31 @@
 
 quotey is a simple command line tool that displays a random quote from your custom collection or WikiQuote on shell startup. 
 
+## 📜 features
+Every time you start your shell, you can:
+
+- Get a random quote from your own custom collection
+- Get a random quote from the WikiQuote page of your favorite person
+
 ![quotey](https://raw.githubusercontent.com/galuhsahid/quotey/master/screencap.gif)
 
-## Install
+## 💡 future improvements
+- Caching
+
+## 💭 contribute
+If you're interested to work in improving the points above/have any idea, feel free to make a pull request/let me know and contribute! 🙏
+
+## ☁️ install
 
 ```
 $ npm install -g quotey
 ```
 
-## Usage
+## ⚙ configuration
 
-### Custom collection
+### custom collection
 
-#### Set directory
+#### set directory
 
 First, create a new directory (or choose an existing directory) where you will put all of your collections in. This is going to be the folder that quotey will look for. For example, I want to put all my quotes in a directory called "quotes" (you can name it anything you want!).
 
@@ -26,7 +38,7 @@ pwd
 /Users/galuhsahid/Documents/quotes
 ```
 
-#### Create your own collection(s)
+#### create your own collection(s)
 
 Each collection is represented by a .json file. For example, if you want to make a collection of stoicism quotes, you can do so by creating a .json file in the **quotes** directory. Name it anything you want, say, **"favorite-stoicism-quotes.json"**.
 
@@ -72,7 +84,7 @@ Feel free to add more quotes to the list!
 
 By building your own collection, you can also use quotey not to only display quotes, but also display your favorite poems, passages, &amp; many more on shell startup.
 
-#### Execute on startup
+#### execute on startup
 
 It's the fun part! We have to configure our shell so that it will run quotey on every shell startup.
 
@@ -101,7 +113,7 @@ $ echo 'quotey -c "favorite-stoicism-quotes.json"' >> ~/.bash_profile
 
 Anytime you want to use a different collection, simply create a new collection in the directory &amp; change the collection name in your shell configuration file.
 
-### From WikiQuote
+### from WikiQuote
 
 quotey is also able to automagically grab a person's quote from WikiQuote, simply given the person's name.
 
